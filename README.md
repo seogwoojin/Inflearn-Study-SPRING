@@ -40,7 +40,7 @@ Readme를 통해 각각의 강의를 배우며 알게 된 지식을 저장하고
 스프링 AOP를 통해 프록시 객체에서 autoCommit(false) Connection을 유지하고 최종적으로 commit() 혹은 rollback() 등을 수행한다. 
 
 
-## <a herf="https://github.com/seogwoojin/Inflearn-Study-SPRING-JPA/tree/main/hello_boot">토비 스프링 부트</a>
+## <a href="https://github.com/seogwoojin/Inflearn-Study-SPRING-JPA/tree/main/hello_boot">토비 스프링 부트</a>
 
 위 강의는 @SpringBootApplication 어노테이션이 담고 있는 기능을 직접 구현해보며, 스프링 부트가 가진 추상화의 장점을 알려준다.
 
