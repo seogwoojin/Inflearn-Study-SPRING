@@ -1,5 +1,6 @@
 package hello.advanced.app.v1;
 
+import hello.advanced.trace.TraceId;
 import hello.advanced.trace.TraceStatus;
 import hello.advanced.trace.hellotrace.HelloTraceV1;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +15,6 @@ public class OrderControllerV1 {
 
     @GetMapping("/v1/request")
     public String request(String itemId){
-        TraceStatus status =
 
         orderService.orderItem(itemId);
         return "OK";

@@ -1,0 +1,8 @@
+server:
+  tomcat:
+    accept-count: 2
+    max-connections: 2
+    threads:
+      max: 2
+      min-spare: 2
+    max-keep-alive-requests:
